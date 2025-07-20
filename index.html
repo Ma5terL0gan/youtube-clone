@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube - Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-left">
+            <div class="hamburger-menu" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">
+                <span class="logo-you">You</span><span class="logo-tube">Tube</span>
+            </div>
+        </div>
+        
+        <div class="header-center">
+            <form class="search-form" id="searchForm">
+                <input type="text" class="search-input" placeholder="Search" id="searchInput" aria-label="Search">
+                <button type="submit" class="search-button" aria-label="Search">Search</button>
+            </form>
+        </div>
+        
+        <div class="header-right">
+            <button class="sign-in-btn">Sign in</button>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-text">Shorts</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-text">Subscriptions</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-text">You</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-text">History</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="content-container">
+            <div class="welcome-message">
+                <h2>Try searching to get started</h2>
+                <p>Start watching videos to help us build a feed of videos you'll love.</p>
+            </div>
+            
+            <!-- Video Grid -->
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Sample Video Title</h3>
+                        <p class="video-channel">Channel Name</p>
+                        <p class="video-meta">1.2M views • 2 days ago</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Another Video Title</h3>
+                        <p class="video-channel">Another Channel</p>
+                        <p class="video-meta">856K views • 1 week ago</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Third Video Example</h3>
+                        <p class="video-channel">Example Channel</p>
+                        <p class="video-meta">2.1M views • 3 days ago</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Fourth Video Sample</h3>
+                        <p class="video-channel">Sample Channel</p>
+                        <p class="video-meta">445K views • 5 days ago</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Fifth Video Title</h3>
+                        <p class="video-channel">Video Channel</p>
+                        <p class="video-meta">3.2M views • 1 day ago</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Sixth Video Example</h3>
+                        <p class="video-channel">Content Creator</p>
+                        <p class="video-meta">789K views • 4 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
